@@ -52,19 +52,8 @@ content:
   - title: 역량 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: 프로젝트 기획
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          2018.04.01 ~ 현재
+      - layout: top-left
+        title: 프로젝트 기획
         description: | # this will include new lines to allow paragraphs
           - 팀 개발 툴에 대한 Requirement 문서가 전무한 상황에서 약 110개의 Sub Feature 관련하여 WLT(Web Labeing Tool) SRS 문서 작성. (2021.11.10 ~ 2021.12.20)
 
